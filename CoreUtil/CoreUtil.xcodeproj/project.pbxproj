@@ -531,17 +531,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = T5HMUWWK5R;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CoreUtil/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuki.CoreUtil;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -559,17 +555,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = T5HMUWWK5R;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CoreUtil/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuki.CoreUtil;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
